@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Performing the Build Option'
-                  build quietPeriod: 5, job: 'AmazonPipeline'
+                  
                
                 
             }
